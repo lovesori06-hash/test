@@ -1,0 +1,39 @@
+hello
+hi world
+i love you
+
+
+검색접두어 사용 검색 범위 지정
+
+1. 특정 레포지토리 내에서만 검색
+repo:username/repository 검색어
+(repo:paullabkorea/testrepo hello)
+
+2. 특정 사용자의 레포지토리 내에서만 검색어
+user:username 검색어
+(user:github documentation)
+
+3. 특정 조직의 레포지토리 내에서만 검색
+org:organization 검색어
+(org:weniv school)
+
+4.파일 경로에 특정 문자열이 포함된 파일 검색
+path:경로 검색어
+(org/:weniv path:*.png)
+
+
+git 명령어
+
+* git init : 이 폴더를 이제부터 git으로 관리할 수 있는 환경으로 만들겠습니다!
+---
+* 텍스트 파일 하나 생성(one.txt)
+* git add . : 이 폴더에 있는 모든 폴더와 파일을 git으로 관리하겠습니다!
+* git commit -m 'one' : 이 폴더에 변경 내역을 버전으로 만들겠습니다!
+---
+* 텍스트 파일 하나 생성(two.txt)
+* git add . : 이 폴더에 있는 모든 폴더와 파일을 git으로 관리하겠습니다!
+* git commit -m 'two' : 이 폴더에 변경 내역을 버전으로 만들겠습니다!
+---
+* 텍스트 파일 하나 생성(three.txt)
+* git add . : 이 폴더에 있는 모든 폴더와 파일을 git으로 관리하겠습니다!
+* git commit -m 'three' : 이 폴더에 변경 내역을 버전으로 만들겠습니다!
